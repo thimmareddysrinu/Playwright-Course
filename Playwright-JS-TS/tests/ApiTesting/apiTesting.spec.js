@@ -55,7 +55,7 @@ test.beforeAll(async()=>{
 //     await expect(page.getByRole("link",{name:"Browse Events →"})).toBeVisible();
 // }
 
-test("fill Assignment flow",async({page})=>{
+test(" @API fill Assignment flow",async({page})=>{
     // step 1: Login is Done
     // await login(page);
   

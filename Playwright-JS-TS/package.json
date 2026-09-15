@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "basic2.js",
-  "scripts": {},
+  "scripts": {
+    "regression": "npx playwright test",
+    "WEBTESTING": "npx playwright test --grep @WEB",
+    "APITESTING": "npx playwright test --grep @API"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

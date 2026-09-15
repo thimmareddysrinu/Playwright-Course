@@ -17,7 +17,7 @@ test.beforeAll("storage data in JSON FORMAT",async({browser})=>{
 
 
 
-test("order Booking flow",async()=>{
+test("@WEB order Booking flow",async()=>{
     const page=await GlobalContext.newPage()
 
     const productname="ADIDAS ORIGINAL"
@@ -39,7 +39,7 @@ test("order Booking flow",async()=>{
 
 
 })
-test("test 2",async()=>{
+test(" @WEB test 2",async()=>{
     const page=await GlobalContext.newPage()
 
     const productname="ADIDAS ORIGINAL"

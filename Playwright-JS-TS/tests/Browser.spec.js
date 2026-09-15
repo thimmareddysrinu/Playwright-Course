@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 
 
 
-test("Browser context test",async({browser})=>{
+test(" @WEB Browser context test",async({browser})=>{
     const context=await browser.newContext();
     const page=await context.newPage();
     await page.goto("https://playwright.dev/");

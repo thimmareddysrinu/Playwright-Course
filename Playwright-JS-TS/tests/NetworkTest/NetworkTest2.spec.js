@@ -3,7 +3,7 @@ import {test,expect} from '@playwright/test';
 
 
 
-test("@Q retrieve data order id ",async({page})=>{
+test("@API retrieve data order id ",async({page})=>{
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login")
     
     const email=page.locator("[type='email']")

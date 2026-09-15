@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 
 
 
-test("order item flow",async({page})=>{
+test("@WEB order item flow",async({page})=>{
 
 
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login");

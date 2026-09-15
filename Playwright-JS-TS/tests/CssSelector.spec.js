@@ -3,7 +3,7 @@ import {test,expect} from  '@playwright/test'
 
 
 
-test(" page login",async({page})=>{
+test("@WEB  page login",async({page})=>{
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
 
     await page.locator('#username').fill("rahulshettyacademy");

@@ -3,7 +3,7 @@ import {test,expect} from '@playwright/test'
 
 
 
-test("register page",async({page})=>{
+test("@WEB register page",async({page})=>{
     await page.goto("https://rahulshettyacademy.com/client/#/auth/register")
     const firstname=page.locator("input#firstName")
     const lastname=page.locator("input#lastName")
@@ -23,7 +23,7 @@ test("register page",async({page})=>{
     await conpassword.fill("Srinu452@")
     await submitted.click()
 })
-test.skip("login page",async({page})=>{
+test("@WEB login page",async({page})=>{
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login")
     
     const email=page.locator("[type='email']")

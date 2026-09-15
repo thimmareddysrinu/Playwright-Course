@@ -1,6 +1,6 @@
 import { test,expect} from '@playwright/test';
 
-test("UI basic test",async({page})=>{
+test(" @WEB UI basic test",async({page})=>{
     await page.goto("https://playwright.dev/");
     // await page.getByText("Playwright").highlight()
     // await page.getByRole("link",{name:"Get started"}).click();

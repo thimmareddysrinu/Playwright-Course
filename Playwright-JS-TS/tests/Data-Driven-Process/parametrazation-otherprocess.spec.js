@@ -16,7 +16,7 @@ import {custombase} from './data-json'
 const DataSets=require("../Utills/data.json")
 
 for (const data of DataSets) {
-    test(`order flow for ${data.productName}`,async({page})=>{
+    test(`@WEB order flow for ${data.productName}`,async({page})=>{
 
 
     // await page.goto("https://rahulshettyacademy.com/client/#/auth/login");
@@ -118,7 +118,7 @@ for (const data of DataSets) {
     
     
 }
-custombase.only("new order flow for",async({page,testDataForOrder})=>{
+custombase(" @WEB new order flow for",async({page,testDataForOrder})=>{
 
 
     // await page.goto("https://rahulshettyacademy.com/client/#/auth/login");

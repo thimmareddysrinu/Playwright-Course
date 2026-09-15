@@ -13,7 +13,7 @@ import Dataset from '../Utills/data.json';
 const DataSets=require("../Utills/data.json")
 
 for (const data of DataSets) {
-    test(`order flow for ${data.productName}`,async({page})=>{
+    test(`@WEB order flow for ${data.productName}`,async({page})=>{
 
 
     // await page.goto("https://rahulshettyacademy.com/client/#/auth/login");

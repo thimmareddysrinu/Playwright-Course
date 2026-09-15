@@ -35,7 +35,7 @@ test.beforeAll(async()=>{
 
 
 
-test("fill Assignment flow",async({page})=>{
+test("@API fill Assignment flow",async({page})=>{
 
     console.log(`tokenin network file:${response.token}`)
     page.addInitScript(value=>{

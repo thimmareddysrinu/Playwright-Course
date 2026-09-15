@@ -3,7 +3,7 @@ import {test ,expect} from '@playwright/test'
 
 
 
-test(" anthoer browser",async({page})=>{
+test(" @WEB anthoer browser",async({page})=>{
 
 
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/");

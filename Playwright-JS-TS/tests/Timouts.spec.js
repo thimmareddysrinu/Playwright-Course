@@ -3,7 +3,7 @@ import {test,expect} from '@playwright/test'
 
 
 
-test(" Different timout setting",async({page})=>{
+test(" @WEB Different timout setting",async({page})=>{
     // test -level
     const slowtimeout=expect.configure({timeout:9000})
 
