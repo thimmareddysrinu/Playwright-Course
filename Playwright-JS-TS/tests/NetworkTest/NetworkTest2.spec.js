@@ -27,7 +27,7 @@ test("@API retrieve data order id ",async({page})=>{
         route => route.continue({ url: 'https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=621661f884b053f6765465b6' }));
 
     await page.locator("button:has-text('View')").first().click();
-    await page.pause();
+    
 })
 
 

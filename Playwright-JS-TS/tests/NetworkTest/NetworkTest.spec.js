@@ -35,7 +35,7 @@ test.beforeAll(async()=>{
 
 
 
-test("@API fill Assignment flow",async({page})=>{
+test("@API fill Assignment flow",async({page,request})=>{
 
     console.log(`tokenin network file:${response.token}`)
     page.addInitScript(value=>{
@@ -45,7 +45,7 @@ test("@API fill Assignment flow",async({page})=>{
     await page.goto(`${BaseUser}`)
 
     await page.route('**/api/ecom/order/get-orders-for-customer/**', async (route) => {
-    const responses = await request.fetch(route.request());
+    const responses = await route.fetch();
     const body = JSON.stringify(fakebody);
 
     await route.fulfill({

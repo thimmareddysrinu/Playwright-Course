@@ -13,7 +13,7 @@ test("@WEB  page login",async({page})=>{
     await page.locator(".radiotextsty").last().click();
     await page.locator("#okayBtn").click();
     await page.locator("#terms").check();
-    await page.pause();
+   
     await page.locator("#signInBtn").click();
 
 

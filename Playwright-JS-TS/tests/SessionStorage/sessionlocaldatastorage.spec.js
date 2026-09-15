@@ -44,7 +44,7 @@ test(" @WEB test 2",async()=>{
 
     const productname="ADIDAS ORIGINAL"
     await page.goto("https://rahulshettyacademy.com/client/#/dashboard/myorders")
-    await page.pause()
+    
    
 
 

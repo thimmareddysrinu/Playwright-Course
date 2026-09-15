@@ -78,7 +78,7 @@ test("@WEB order item flow",async({page})=>{
 
     expect(Orderhistry?.trim()).toContain(orderId);
     
-    await page.pause()
+  
 
 
 
