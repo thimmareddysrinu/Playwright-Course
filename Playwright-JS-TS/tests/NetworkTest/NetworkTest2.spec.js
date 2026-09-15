@@ -35,7 +35,7 @@ test("@API retrieve data order id ",async({page})=>{
 
 
 
-test.only("using abort to stop running  ",async({page})=>{
+test("using abort to stop running  ",async({page})=>{
     page.route("**/*.{jpeg,png,jpg,css}",route=>route.abort())
     await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
     

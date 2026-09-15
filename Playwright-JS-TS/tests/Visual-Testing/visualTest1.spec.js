@@ -17,7 +17,7 @@ test("Visual testing 1 and save the screenshots",async({page})=>{
 
 
 
-test.only("Visual comparsion of inital and present screen shot",async({page})=>{
+test("Visual comparsion of inital and present screen shot",async({page})=>{
 
 //  for entire page screen shot inital screenshot and present screen shot comparsion 
 

@@ -22,7 +22,7 @@ test(" @WEB Browser context test",async({browser})=>{
 
 
 //})
-test.only("Page test",async({page})=>{
+test("Page test",async({page})=>{
     
     await page.goto("https://platform.claude.com/login?returnTo=%2Fsettings%2Fkeys");
     console.log(await page.title());
