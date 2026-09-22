@@ -1,0 +1,26 @@
+{
+  "name": "playwright-js-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basic2.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "regression": "npx playwright test",
+    "WEBTESTING": "npx playwright test --grep @WEB",
+    "APITESTING": "npx playwright test --grep @API"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/identity": "^4.13.3",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "allure-playwright": "^3.12.1",
+    "exceljs": "^4.4.0"
+  }
+}
