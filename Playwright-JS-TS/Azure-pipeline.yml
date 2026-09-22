@@ -14,7 +14,7 @@ jobs:
 - job: Test
   timeoutInMinutes: 60
   pool:
-    vmImage: 'ubuntu-latest'
+    vmImage: ['ubuntu-latest','windows-latest']
   
   steps:
   # 1. Checkout code (Handled automatically by Azure DevOps, no step needed)
