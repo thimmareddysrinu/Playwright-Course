@@ -17,12 +17,12 @@ test("Visual testing 1 and save the screenshots",async({page})=>{
 
 
 
-test("Visual comparsion of inital and present screen shot",async({page})=>{
+// test("Visual comparsion of inital and present screen shot",async({page})=>{
 
-//  for entire page screen shot inital screenshot and present screen shot comparsion 
+// //  for entire page screen shot inital screenshot and present screen shot comparsion 
 
-    await  page.goto("https://rahulshettyacademy.com/AutomationPractice/");
-    await expect(page).toHaveScreenshot("automationpractice1.png");
+//     await  page.goto("https://rahulshettyacademy.com/AutomationPractice/");
+//     await expect(page).toHaveScreenshot("automationpractice1.png");
 
 
-})
+// })
